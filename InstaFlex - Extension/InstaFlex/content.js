@@ -13,7 +13,8 @@ function addGlobalStyle(css) {
 //instagram.com
     //general
         addGlobalStyle('.SCxLW, ._8Rna9, .oYYFH, .oNO81, .S-mcP, .N9abW, .BvMHM, .wW1cu, .DPiy6, ._4Kbb_, ._54f4m, .HcJZg, .rOtsg, .ZUqME, .QOqBd, .AvhYw, .nLL4f, .TOh1s, .-qQT3:hover, ._9eogI, .DHo8h, ._6zPK7, .PS7Gk  { background-color: #212529 !important; }'); //background
-        addGlobalStyle('.AvhYw, .nLL4f, .TOh1s, .-qQT3 { border: solid 1px #212529 !important; }'); //borders like background color
+        addGlobalStyle('.AvhYw, .nLL4f, .TOh1s, .-qQT3, .W4P49 { border: solid 1px #212529 !important; }'); //borders like background color
+        addGlobalStyle('hr, .W4P49 { background-color: #343A40 !important; }'); //hr (line) color
 
             //text
             addGlobalStyle('.gmFkV, .FPmhX, .xLCgt, .fKFbl, .Yk1V7, .QXEMa, .kHYQv { color: #1DA1F2 !important; }'); //usernames text into blue
@@ -42,6 +43,9 @@ function addGlobalStyle(css) {
 
         addGlobalStyle('.ByB5K, .enqOc { background-color: #343A40 !important; }'); //Covid-19 info background
 
+    //instagram.com/p/ - post page
+        addGlobalStyle('.ltEKP, .QBXjJ, .M9sTE, .L_LMM, .JyscU, .Tgarh, .ePUX4, ._9OOu0 { border: solid 1px #343A40 !important; }'); //no white borders
+
     //direct page
         addGlobalStyle('.oYYFH, .pV7Qt, .oNO81, .S-mcP, .aOOlW { border: solid 1px #212529 !important; }'); //no white boders
         addGlobalStyle('.pV7Qt, ._6Rvw2 { background-color: #343A40 !important; }'); //content background
@@ -51,6 +55,8 @@ function addGlobalStyle(css) {
     //account page
         addGlobalStyle('.Nd_Rl, .fx7hk, ._4Kbb_, ._54f4m, .ySN3v { border-top: 1px solid #212529 !important; }'); //no white border
         addGlobalStyle('.Pmh1O, ._829vi { color: #979ca1 !important; }'); //pronounce and category
+        addGlobalStyle('.fmD5w { background-color: #57616b !important; }'); //"View Insights" background
+        addGlobalStyle('.fmD5w, .ltpMr, .Slqrh { border: solid 1px #343A40 !important; }'); //"View Insights" no white borders
 
         //known issues: the unfollow button with the person is not displayed
 
