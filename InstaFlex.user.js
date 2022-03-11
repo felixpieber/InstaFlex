@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         InstaFlex
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @icon         https://cdn-icons.flaticon.com/png/512/717/premium/717414.png?token=exp=1643811970~hmac=21bbf85bb2f99366dfac460aeddd3e53
+// @version      1.2
+// @icon         https://raw.githubusercontent.com/felixpieber/InstaFlex/main/InstaFlex%20-%20Extension/InstaFlex/images/icons/icon-512x512.png
 // @description  A Dark Mode, Downloader and Hotkeys(?) Script for Instagram.
 // @author       Felix Pieber
 // @match        https://www.instagram.com/*
@@ -15,7 +15,6 @@
 // @grant        none
 // ==/UserScript==
 
-// icon from edt.im 
 
 /// - - - DARKMODE - - - ///
 
@@ -31,7 +30,7 @@ function addGlobalStyle(css) {
 
 //instagram.com
     //general
-        addGlobalStyle('.SCxLW, ._8Rna9, .oYYFH, .oNO81, .S-mcP, .N9abW, .BvMHM, .wW1cu, .DPiy6, ._4Kbb_, ._54f4m, .HcJZg, .rOtsg, .ZUqME, .QOqBd, .AvhYw, .nLL4f, .TOh1s, .-qQT3:hover, ._9eogI, .DHo8h, ._6zPK7, .PS7Gk  { background-color: #212529 !important; }'); //background
+        addGlobalStyle('.SCxLW, ._8Rna9, .oYYFH, .oNO81, .S-mcP, .N9abW, .BvMHM, .wW1cu, .DPiy6, ._4Kbb_, ._54f4m, .HcJZg, .rOtsg, .ZUqME, .QOqBd, .AvhYw, .nLL4f, .TOh1s, .-qQT3:hover, ._9eogI, .DHo8h, ._6zPK7, .PS7Gk, .CZW53, .N2s2W  { background-color: #212529 !important; }'); //background
         addGlobalStyle('.AvhYw, .nLL4f, .TOh1s, .-qQT3, .W4P49 { border: solid 1px #212529 !important; }'); //borders like background color
         addGlobalStyle('hr, .W4P49 { background-color: #343A40 !important; }'); //hr (line) color
 
@@ -40,7 +39,7 @@ function addGlobalStyle(css) {
             addGlobalStyle('.eebAO, .O4GlU, ._8Pl3R, .xil3i, .Nm9Fw, .zV_Nj, .m82CD, .eiUFA, .vy6Bb, .k9GMp, .EcJQs, .wW1cu, .h-aRd, .JLJ-B, .p7vTm, .F0B8Y, .AC7dP, .eE-OA, .sxIVS, .HgNB_, .bt7LU, .ufStW, .U17kh, .k8Vux, .QlxVY, .VIsJD, .rkEop, textarea, ._5f5mN, .-fzfL, ._6VtSN, .yZn4P, .izU2O, .b_nGN, .swB58 { color: #CED4DA !important; }'); //text into grey
             addGlobalStyle('.sqdOP { color: #ffffff !important; }'); //text into white
             addGlobalStyle('.xil3i, .notranslate, .heKAw { color: #0096c7 !important; }'); //hashtags and links
-        
+
             addGlobalStyle('button, svg, path, ._8-yf5, .yC0tu, .glyphsSpriteFriend_Follow u-__7 { color: #000000 !important;}'); //buttons
             addGlobalStyle('svg, span { fill: #000000 !important;}'); //buttons fill
             addGlobalStyle(' { border: solid 1px #000000 !important; }'); //black border color
